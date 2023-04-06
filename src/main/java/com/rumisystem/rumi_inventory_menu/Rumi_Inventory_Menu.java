@@ -63,18 +63,16 @@ public final class Rumi_Inventory_Menu extends JavaPlugin implements Listener {
 
 	  @EventHandler
 	  public void onInventoryClick(InventoryClickEvent event) {
-			if (!event.getView().getTitle().equals("Menu")) { // インベントリのタイトルが"Menu"ではない場合は処理しない
-				  return;
-			}
-			event.setCancelled(true); // イベントをキャンセルする（アイテムを移動できなくする）
 			if (event.getCurrentItem() == null || event.getCurrentItem().getType() == Material.AIR) { // クリックされたアイテムが空気の場合は処理しない
 				  return;
 			}
+
 			Player player = (Player) event.getWhoClicked();
 
 			for(Menu_COMMAND cmd : MENU_COMMAND){
 				  if(cmd.getMENU_NAME().equals(event.getView().getTitle())){
 						//System.out.println("メニュー名一致！");
+						event.setCancelled(true); // イベントをキャンセルする（アイテムを移動できなくする）
 						if(cmd.getITEM_META().equals(event.getCurrentItem().getItemMeta())){
 							  //System.out.println("メタ一致！");
 							  if(cmd.getITEM_MATERIAL().equals(event.getCurrentItem().getType())){
@@ -99,6 +97,9 @@ public final class Rumi_Inventory_Menu extends JavaPlugin implements Listener {
 									}
 							  }
 						}
+				  }else {
+						// インベントリのタイトルが一致しない場合は処理しない
+						return;
 				  }
 			}
         /*
