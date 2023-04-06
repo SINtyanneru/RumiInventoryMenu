@@ -1,0 +1,11 @@
+name: Rumi_Inventory_Menu
+version: '${version}'
+main: com.rumisystem.rumi_inventory_menu.Rumi_Inventory_Menu
+
+commands:
+  rim:
+    aliases: [rim]
+    description: RIM command
+    permission: rim.command
+    permission-message: Permission denied
+    usage: none

@@ -1,0 +1,134 @@
+[13:15:20] [main/INFO]: Using standard Java JCE cipher.
+[13:15:20] [main/INFO]: Using standard Java compressor.
+[13:15:20] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:8a03f3d:515
+[13:15:20] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+[13:15:20] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+[13:15:20] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+[13:15:20] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+[13:15:20] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+[13:15:20] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+[13:15:20] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:8a03f3d:515 by WaterfallMC
+[13:15:20] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:8a03f3d:515 by WaterfallMC
+[13:15:20] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:8a03f3d:515 by WaterfallMC
+[13:15:20] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:8a03f3d:515 by WaterfallMC
+[13:15:20] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:8a03f3d:515 by WaterfallMC
+[13:15:20] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:8a03f3d:515 by WaterfallMC
+[13:15:20] [main/WARN]: Forced host server pvp is not defined
+[13:15:20] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:8a03f3d:515 by WaterfallMC
+[13:15:20] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:8a03f3d:515 by WaterfallMC
+[13:15:20] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:8a03f3d:515 by WaterfallMC
+[13:15:20] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:8a03f3d:515 by WaterfallMC
+[13:15:20] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:8a03f3d:515 by WaterfallMC
+[13:15:20] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:8a03f3d:515 by WaterfallMC
+[13:15:21] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25565
+[13:15:21] [Netty Worker IO Thread #0/INFO]: Started query on /[0:0:0:0:0:0:0:0]:25577
+[13:16:14] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:2257] <-> InitialHandler has pinged
+[14:42:04] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:14013] <-> InitialHandler has connected
+[14:42:07] [Netty Worker IO Thread #2/INFO]: [Rumisan_|/127.0.0.1:14013] <-> ServerConnector [hub] has connected
+[14:43:47] [Netty Worker IO Thread #2/INFO]: [Rumisan_] disconnected with: Server closed
+[14:43:47] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:14013|Rumisan_] -> UpstreamBridge has disconnected
+[14:43:47] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:14013|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[14:46:20] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:5454] <-> InitialHandler has connected
+[14:46:21] [Netty Worker IO Thread #3/INFO]: [Rumisan_|/127.0.0.1:5454] <-> ServerConnector [hub] has connected
+[14:47:48] [Netty Worker IO Thread #3/INFO]: [Rumisan_] disconnected with: Server closed
+[14:47:48] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:5454|Rumisan_] -> UpstreamBridge has disconnected
+[14:47:48] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:5454|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[14:49:01] [Netty Worker IO Thread #4/INFO]: [/127.0.0.1:11769] <-> InitialHandler has connected
+[14:49:02] [Netty Worker IO Thread #4/INFO]: [Rumisan_|/127.0.0.1:11769] <-> ServerConnector [hub] has connected
+[14:49:18] [Netty Worker IO Thread #4/WARN]: Error occurred processing connection for Rumisan_ ConnectTimeoutException : connection timed out: /192.168.0.144:25565
+[14:49:21] [Netty Worker IO Thread #4/INFO]: [/127.0.0.1:11769|Rumisan_] -> UpstreamBridge has disconnected
+[14:49:21] [Netty Worker IO Thread #4/INFO]: [/127.0.0.1:11769|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[14:49:22] [Netty Worker IO Thread #5/INFO]: [/127.0.0.1:11785] <-> InitialHandler has pinged
+[14:53:21] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:11878] <-> InitialHandler has connected
+[14:53:22] [Netty Worker IO Thread #6/WARN]: Error occurred processing connection for Rumisan_ AnnotatedConnectException : Connection refused: no further information: localhost/127.0.0.1:25555
+[14:53:22] [Netty Worker IO Thread #6/INFO]: [Rumisan_] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[14:53:22] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:11878|Rumisan_] -> UpstreamBridge has disconnected
+[14:55:27] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:11415] <-> InitialHandler has connected
+[14:55:28] [Netty Worker IO Thread #7/INFO]: [Rumisan_|/127.0.0.1:11415] <-> ServerConnector [hub] has connected
+[14:56:23] [Netty Worker IO Thread #7/WARN]: Error occurred processing connection for Rumisan_ ConnectTimeoutException : connection timed out: /192.168.0.144:25565
+[14:56:28] [Netty Worker IO Thread #7/INFO]: [Rumisan_] disconnected with: Server closed
+[14:56:28] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:11415|Rumisan_] -> UpstreamBridge has disconnected
+[14:56:28] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:11415|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[16:20:07] [Netty Worker IO Thread #8/INFO]: [/127.0.0.1:1472] <-> InitialHandler has connected
+[16:20:08] [Netty Worker IO Thread #8/INFO]: [Rumisan_|/127.0.0.1:1472] <-> ServerConnector [hub] has connected
+[16:20:29] [Netty Worker IO Thread #8/WARN]: Error occurred processing connection for Rumisan_ ConnectTimeoutException : connection timed out: /192.168.0.144:25565
+[16:21:21] [Netty Worker IO Thread #8/WARN]: Error occurred processing connection for Rumisan_ ConnectTimeoutException : connection timed out: /192.168.0.144:25565
+[16:21:47] [Netty Worker IO Thread #8/INFO]: [Rumisan_] disconnected with: Server closed
+[16:21:47] [Netty Worker IO Thread #8/INFO]: [/127.0.0.1:1472|Rumisan_] -> UpstreamBridge has disconnected
+[16:21:47] [Netty Worker IO Thread #8/INFO]: [/127.0.0.1:1472|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[17:00:07] [Netty Worker IO Thread #9/INFO]: [/127.0.0.1:9189] <-> InitialHandler has connected
+[17:00:07] [Netty Worker IO Thread #9/INFO]: [Rumisan_|/127.0.0.1:9189] <-> ServerConnector [hub] has connected
+[17:02:18] [Netty Worker IO Thread #9/INFO]: [Rumisan_] disconnected with: Server closed
+[17:02:18] [Netty Worker IO Thread #9/INFO]: [/127.0.0.1:9189|Rumisan_] -> UpstreamBridge has disconnected
+[17:02:18] [Netty Worker IO Thread #9/INFO]: [/127.0.0.1:9189|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[18:00:30] [Netty Worker IO Thread #10/INFO]: [/127.0.0.1:10810] <-> InitialHandler has connected
+[18:00:31] [Netty Worker IO Thread #10/INFO]: [Rumisan_|/127.0.0.1:10810] <-> ServerConnector [hub] has connected
+[18:03:53] [Netty Worker IO Thread #10/INFO]: [Rumisan_] disconnected with: Server closed
+[18:03:53] [Netty Worker IO Thread #10/INFO]: [/127.0.0.1:10810|Rumisan_] -> UpstreamBridge has disconnected
+[18:03:53] [Netty Worker IO Thread #10/INFO]: [/127.0.0.1:10810|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[18:05:34] [Netty Worker IO Thread #11/INFO]: [/127.0.0.1:4496] <-> InitialHandler has connected
+[18:05:35] [Netty Worker IO Thread #11/INFO]: [Rumisan_|/127.0.0.1:4496] <-> ServerConnector [hub] has connected
+[18:05:55] [Netty Worker IO Thread #11/INFO]: [Rumisan_] disconnected with: Server closed
+[18:05:55] [Netty Worker IO Thread #11/INFO]: [/127.0.0.1:4496|Rumisan_] -> UpstreamBridge has disconnected
+[18:05:55] [Netty Worker IO Thread #11/INFO]: [/127.0.0.1:4496|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[18:23:40] [Netty Worker IO Thread #12/INFO]: [/127.0.0.1:10671] <-> InitialHandler has connected
+[18:23:42] [Netty Worker IO Thread #12/INFO]: [Rumisan_|/127.0.0.1:10671] <-> ServerConnector [hub] has connected
+[18:24:42] [Netty Worker IO Thread #12/INFO]: [Rumisan_] disconnected with: Server closed
+[18:24:42] [Netty Worker IO Thread #12/INFO]: [/127.0.0.1:10671|Rumisan_] -> UpstreamBridge has disconnected
+[18:24:42] [Netty Worker IO Thread #12/INFO]: [/127.0.0.1:10671|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[18:31:56] [Netty Worker IO Thread #13/INFO]: [/127.0.0.1:14829] <-> InitialHandler has connected
+[18:31:56] [Netty Worker IO Thread #13/INFO]: [Rumisan_|/127.0.0.1:14829] <-> ServerConnector [hub] has connected
+[18:39:49] [Netty Worker IO Thread #13/INFO]: [Rumisan_] disconnected with: Server closed
+[18:39:49] [Netty Worker IO Thread #13/INFO]: [/127.0.0.1:14829|Rumisan_] -> UpstreamBridge has disconnected
+[18:39:49] [Netty Worker IO Thread #13/INFO]: [/127.0.0.1:14829|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[18:45:58] [Netty Worker IO Thread #14/INFO]: [/127.0.0.1:9132] <-> InitialHandler has connected
+[18:45:59] [Netty Worker IO Thread #14/INFO]: [Rumisan_|/127.0.0.1:9132] <-> ServerConnector [hub] has connected
+[18:46:13] [Netty Worker IO Thread #14/INFO]: [Rumisan_] disconnected with: Server closed
+[18:46:13] [Netty Worker IO Thread #14/INFO]: [/127.0.0.1:9132|Rumisan_] -> UpstreamBridge has disconnected
+[18:46:13] [Netty Worker IO Thread #14/INFO]: [/127.0.0.1:9132|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[18:48:02] [Netty Worker IO Thread #15/INFO]: [/127.0.0.1:8891] <-> InitialHandler has connected
+[18:48:03] [Netty Worker IO Thread #15/INFO]: [Rumisan_|/127.0.0.1:8891] <-> ServerConnector [hub] has connected
+[20:14:50] [Netty Worker IO Thread #15/INFO]: [Rumisan_] disconnected with: Server closed
+[20:14:50] [Netty Worker IO Thread #15/INFO]: [/127.0.0.1:8891|Rumisan_] -> UpstreamBridge has disconnected
+[20:14:50] [Netty Worker IO Thread #15/INFO]: [/127.0.0.1:8891|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[20:15:51] [Netty Worker IO Thread #16/INFO]: [/127.0.0.1:2351] <-> InitialHandler has connected
+[20:15:52] [Netty Worker IO Thread #16/INFO]: [Rumisan_|/127.0.0.1:2351] <-> ServerConnector [hub] has connected
+[20:17:18] [Netty Worker IO Thread #16/INFO]: [/127.0.0.1:2351|Rumisan_] -> UpstreamBridge has disconnected
+[20:17:18] [Netty Worker IO Thread #16/INFO]: [/127.0.0.1:2351|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[20:17:19] [Netty Worker IO Thread #17/INFO]: [/127.0.0.1:2393] <-> InitialHandler has pinged
+[20:32:53] [Netty Worker IO Thread #18/INFO]: [/127.0.0.1:10887] <-> InitialHandler has connected
+[20:32:54] [Netty Worker IO Thread #18/INFO]: [Rumisan_|/127.0.0.1:10887] <-> ServerConnector [hub] has connected
+[20:33:10] [Netty Worker IO Thread #18/WARN]: Error occurred processing connection for Rumisan_ ConnectTimeoutException : connection timed out: /192.168.0.144:25565
+[20:34:04] [Netty Worker IO Thread #18/WARN]: Error occurred processing connection for Rumisan_ ConnectTimeoutException : connection timed out: /192.168.0.144:25565
+[20:37:35] [Netty Worker IO Thread #18/INFO]: [Rumisan_] disconnected with: Server closed
+[20:37:35] [Netty Worker IO Thread #18/INFO]: [/127.0.0.1:10887|Rumisan_] -> UpstreamBridge has disconnected
+[20:37:35] [Netty Worker IO Thread #18/INFO]: [/127.0.0.1:10887|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[21:01:52] [Netty Worker IO Thread #19/INFO]: [/127.0.0.1:9834] <-> InitialHandler has connected
+[21:01:53] [Netty Worker IO Thread #19/INFO]: [Rumisan_|/127.0.0.1:9834] <-> ServerConnector [hub] has connected
+[21:02:10] [Netty Worker IO Thread #19/WARN]: Error occurred processing connection for Rumisan_ ConnectTimeoutException : connection timed out: /192.168.0.144:25565
+[21:03:13] [Netty Worker IO Thread #19/INFO]: [Rumisan_] disconnected with: Server closed
+[21:03:13] [Netty Worker IO Thread #19/INFO]: [/127.0.0.1:9834|Rumisan_] -> UpstreamBridge has disconnected
+[21:03:13] [Netty Worker IO Thread #19/INFO]: [/127.0.0.1:9834|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[21:04:14] [Netty Worker IO Thread #20/INFO]: [/127.0.0.1:9893] <-> InitialHandler has connected
+[21:04:15] [Netty Worker IO Thread #20/INFO]: [Rumisan_|/127.0.0.1:9893] <-> ServerConnector [hub] has connected
+[21:04:45] [Netty Worker IO Thread #20/WARN]: Error occurred processing connection for Rumisan_ ConnectTimeoutException : connection timed out: /192.168.0.144:25565
+[21:09:07] [Netty Worker IO Thread #20/INFO]: [/127.0.0.1:9893|Rumisan_] -> UpstreamBridge has disconnected
+[21:09:07] [Netty Worker IO Thread #20/INFO]: [/127.0.0.1:9893|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[21:09:08] [Netty Worker IO Thread #21/INFO]: [/127.0.0.1:11984] <-> InitialHandler has pinged
+[22:02:58] [Netty Worker IO Thread #22/INFO]: [/127.0.0.1:5641] <-> InitialHandler has connected
+[22:02:59] [Netty Worker IO Thread #22/INFO]: [Rumisan_|/127.0.0.1:5641] <-> ServerConnector [hub] has connected
+[22:06:13] [Netty Worker IO Thread #22/INFO]: [Rumisan_] disconnected with: Server closed
+[22:06:13] [Netty Worker IO Thread #22/INFO]: [/127.0.0.1:5641|Rumisan_] -> UpstreamBridge has disconnected
+[22:06:13] [Netty Worker IO Thread #22/INFO]: [/127.0.0.1:5641|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[22:07:31] [Netty Worker IO Thread #23/INFO]: [/127.0.0.1:5757] <-> InitialHandler has connected
+[22:07:32] [Netty Worker IO Thread #23/INFO]: [Rumisan_|/127.0.0.1:5757] <-> ServerConnector [hub] has connected
+[22:12:24] [Netty Worker IO Thread #23/INFO]: [Rumisan_] disconnected with: Server closed
+[22:12:24] [Netty Worker IO Thread #23/INFO]: [/127.0.0.1:5757|Rumisan_] -> UpstreamBridge has disconnected
+[22:12:24] [Netty Worker IO Thread #23/INFO]: [/127.0.0.1:5757|Rumisan_] <-> DownstreamBridge <-> [hub] has disconnected
+[22:25:27] [Shutdown Thread/INFO]: Closing listener [id: 0xfda32027, L:/[0:0:0:0:0:0:0:0]:25577]
+[22:25:27] [Shutdown Thread/INFO]: Closing listener [id: 0x17e56589, L:/[0:0:0:0:0:0:0:0]:25565]
+[22:25:27] [Shutdown Thread/INFO]: Closing pending connections
+[22:25:27] [Shutdown Thread/INFO]: Disconnecting 0 connections
+[22:25:28] [Shutdown Thread/INFO]: Disabling plugins
+[22:25:28] [Shutdown Thread/INFO]: Closing IO threads
+[22:25:30] [Shutdown Thread/INFO]: Thank you and goodbye

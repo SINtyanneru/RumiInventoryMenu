@@ -1,0 +1,217 @@
+[22:06:38] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:06:39] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[22:06:40] [Worker-Main-8/INFO]: Loaded 7 recipes
+[22:06:42] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[22:06:42] [Server thread/INFO]: Loading properties
+[22:06:43] [Server thread/INFO]: This server is running CraftBukkit version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[22:06:43] [Server thread/INFO]: Debug logging is disabled
+[22:06:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:06:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:06:44] [Server thread/INFO]: Default game type: SURVIVAL
+[22:06:44] [Server thread/INFO]: Generating keypair
+[22:06:44] [Server thread/INFO]: Starting Minecraft server on *:25555
+[22:06:44] [Server thread/INFO]: Using default channel type
+[22:06:48] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[22:06:57] [Server thread/WARN]: Legacy plugin Rumi_Inventory_Menu v1.0 does not specify an api-version.
+[22:06:57] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.5.1
+[22:06:57] [Server thread/INFO]: [ViaVersion] ViaVersion 4.5.1 is now loaded, injecting!
+[22:06:58] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[22:06:59] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[22:06:59] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[22:06:59] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[22:06:59] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[22:06:59] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[22:07:00] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[22:07:00] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[22:07:00] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[22:07:00] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+[22:07:00] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.19 -> 1.19.3 mappings...
+[22:07:00] [Server thread/INFO]: [Rumi_Inventory_Menu] Loading Rumi_Inventory_Menu v1.0
+[22:07:00] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.5.1
+[22:07:00] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[22:07:01] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[22:07:01] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[22:07:01] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[22:07:01] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[22:07:01] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[22:07:01] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[22:07:01] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[22:07:01] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[22:07:01] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[22:07:01] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[22:07:01] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[22:07:01] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
+[22:07:01] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.19.3 -> 1.19 mappings...
+[22:07:01] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
+[22:07:01] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
+[22:07:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:07:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:07:02] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[22:07:02] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[22:07:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:07:02] [Server thread/INFO]: Preparing level "world"
+[22:07:02] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:07:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:07:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:07:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:07:02] [Server thread/INFO]: Max TNT Explosions: 100
+[22:07:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:07:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:07:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:07:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:07:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:07:02] [Server thread/INFO]: View Distance: 10
+[22:07:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:07:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:07:02] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:07:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:07:02] [Server thread/INFO]: Mob Spawn Range: 6
+[22:07:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:07:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:07:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:07:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:07:02] [Server thread/INFO]: Max TNT Explosions: 100
+[22:07:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:07:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:07:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:07:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:07:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:07:02] [Server thread/INFO]: View Distance: 10
+[22:07:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:07:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:07:02] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:07:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:07:02] [Server thread/INFO]: Mob Spawn Range: 6
+[22:07:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:07:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:07:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:07:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:07:02] [Server thread/INFO]: Max TNT Explosions: 100
+[22:07:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:07:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:07:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:07:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:07:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:07:02] [Server thread/INFO]: View Distance: 10
+[22:07:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:07:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:07:02] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:07:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:07:02] [Server thread/INFO]: Mob Spawn Range: 6
+[22:07:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:07:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:07:03] [Server thread/INFO]: Preparing spawn area: 0%
+[22:07:03] [Server thread/INFO]: Preparing spawn area: 0%
+[22:07:03] [Server thread/INFO]: Preparing spawn area: 0%
+[22:07:03] [Server thread/INFO]: Preparing spawn area: 0%
+[22:07:06] [Worker-Main-14/INFO]: Preparing spawn area: 83%
+[22:07:06] [Worker-Main-14/INFO]: Preparing spawn area: 83%
+[22:07:06] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[22:07:06] [Worker-Main-14/INFO]: Preparing spawn area: 83%
+[22:07:06] [Worker-Main-12/INFO]: Preparing spawn area: 95%
+[22:07:06] [Worker-Main-13/INFO]: Preparing spawn area: 95%
+[22:07:07] [Worker-Main-11/INFO]: Preparing spawn area: 97%
+[22:07:07] [Server thread/INFO]: Time elapsed: 5298 ms
+[22:07:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:07:08] [Server thread/INFO]: Preparing spawn area: 0%
+[22:07:08] [Server thread/INFO]: Preparing spawn area: 0%
+[22:07:08] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[22:07:09] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:07:09] [Worker-Main-14/INFO]: Preparing spawn area: 83%
+[22:07:10] [Worker-Main-14/INFO]: Preparing spawn area: 83%
+[22:07:10] [Worker-Main-11/INFO]: Preparing spawn area: 87%
+[22:07:11] [Server thread/INFO]: Preparing spawn area: 94%
+[22:07:11] [Server thread/INFO]: Time elapsed: 3921 ms
+[22:07:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:07:11] [Server thread/INFO]: Preparing spawn area: 0%
+[22:07:12] [Worker-Main-10/INFO]: Preparing spawn area: 83%
+[22:07:12] [Server thread/INFO]: Time elapsed: 785 ms
+[22:07:12] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.5.1
+[22:07:12] [Server thread/INFO]: [Rumi_Inventory_Menu] Enabling Rumi_Inventory_Menu v1.0
+[22:07:12] [Server thread/INFO]: ==========[RIM]==========
+[22:07:12] [Server thread/INFO]: RumiInventoryMenu Loaded!
+[22:07:12] [Server thread/INFO]: V1.0
+[22:07:12] [Server thread/INFO]: Config Path :plugins\Rumi_Inventory_Menu
+[22:07:12] [Server thread/INFO]: Configuration file is available! Thank you for using it!
+[22:07:12] [Server thread/INFO]: [ *** ] Load menu:plugins\Rumi_Inventory_Menu\Menu\Menu.json
+[22:07:12] [Server thread/INFO]: [ *** ] DATA:{"ITEM":"STICK","ITEM_NAME":"ハブ棒","ITEM_DESC":"ハブ棒だ！","TITLE":"Menu","SIZE":27,"DATA":[{"POS":5,"ITEM":"DIAMOND","NAME":"ダイヤ！！！","DESC":"ダイヤだぞ！\nダイヤモンド！!","COMMAND":["SAY \"プラグインテストだぞ！！\nおにまいは神アニメだ！！！\nサハ共和国へようこそ\"","CLOSE"]}]}
+[22:07:12] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.5.1
+[22:07:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:07:12] [Server thread/INFO]: Done (10.705s)! For help, type "help"
+[22:07:12] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4/5 (754)
+[22:07:12] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 17 (your version is 16.0.2). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[22:07:12] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[22:07:13] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.6.2, you're on: 4.5.1
+[22:07:32] [User Authenticator #1/INFO]: UUID of player Rumisan_ is c59ea0a2-de40-4981-a127-abdaec8c8849
+[22:07:32] [Server thread/INFO]: Rumisan_[/127.0.0.1:5760] logged in with entity id 279 at ([world]187.79666083849136, 63.0, 3.1772068040451718)
+[22:07:35] [Netty Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[22:07:35] [Netty Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[22:12:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5634ms or 112 ticks behind
+[22:12:23] [Server thread/INFO]: Stopping the server
+[22:12:23] [Server thread/INFO]: Stopping server
+[22:12:23] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.2
+[22:12:23] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.5.1
+[22:12:23] [Server thread/INFO]: [Rumi_Inventory_Menu] Disabling Rumi_Inventory_Menu v1.0
+[22:12:23] [Server thread/INFO]: RumiInventoryMenu Unloaded... Goodbye
+[22:12:23] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.5.1
+[22:12:23] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[22:12:23] [Server thread/INFO]: Saving players
+[22:12:23] [Server thread/INFO]: Rumisan_ lost connection: Server closed
+[22:12:23] [Server thread/INFO]: Rumisan_ left the game
+[22:12:24] [Server thread/INFO]: Saving worlds
+[22:12:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:12:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:12:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:12:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:12:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:12:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:12:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:12:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:12:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
