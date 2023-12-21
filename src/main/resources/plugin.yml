@@ -1,11 +1,4 @@
-name: Rumi_Inventory_Menu
+name: RumiInventoryMenu
 version: '${version}'
-main: com.rumisystem.rumi_inventory_menu.Rumi_Inventory_Menu
-
-commands:
-  rim:
-    aliases: [rim]
-    description: RIM command
-    permission: rim.command
-    permission-message: Permission denied
-    usage: none
+main: com.rumisystem.rumiinventorymenu.RumiInventoryMenu
+api-version: '1.19'
