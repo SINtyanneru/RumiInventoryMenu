@@ -1,9 +1,15 @@
 package com.rumisystem.rumiinventorymenu;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.google.common.io.ByteArrayDataOutput;
 import com.google.common.io.ByteStreams;
+import org.bukkit.Material;
 import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import java.util.Objects;
 
 public final class RumiInventoryMenu extends JavaPlugin {
 	private static RumiInventoryMenu INSTANCE;
@@ -42,5 +48,19 @@ public final class RumiInventoryMenu extends JavaPlugin {
 		out.writeUTF(NAME);
 
 		player.sendPluginMessage(this, "BungeeCord", out.toByteArray());
+	}
+
+	//メニュー表示用アイテムを入れる
+	public void SetMenuItem(String MENU_NAME, Player PLAYER){
+		JsonNode MENU_DATA = new MenuData().LoadMenu("test");
+
+		if(Objects.nonNull(MENU_DATA)){
+			ItemStack ITEM = new ItemStack(Material.getMaterial(MENU_DATA.get("ITEM").get("MATERIAL").textValue()), 1);
+			ItemMeta META = ITEM.getItemMeta();
+			META.setDisplayName(MENU_DATA.get("ITEM").get("NAME").textValue());
+			ITEM.setItemMeta(META);
+
+			PLAYER.getInventory().setItem(MENU_DATA.get("ITEM").get("SLOT").intValue(), ITEM);
+		}
 	}
 }

@@ -27,7 +27,10 @@ public class OpenMenu {
 		JsonNode MENU_DATA = new MenuData().LoadMenu("test");
 
 		if(Objects.nonNull(MENU_DATA)){
-			if(CLICK_ITEM.getType().toString().equals(MENU_DATA.get("ITEM").get("ID").textValue())){
+			if(
+					MENU_DATA.get("ITEM").get("MATERIAL").textValue().equals(CLICK_ITEM.getType().toString())&&
+					MENU_DATA.get("ITEM").get("NAME").textValue().equals(CLICK_ITEM.getItemMeta().getDisplayName().toString())
+			){
 				//インベントリを作成
 				Inventory INVENTORY = Bukkit.createInventory(null, 54, MENU_DATA.get("TITLE").textValue());
 

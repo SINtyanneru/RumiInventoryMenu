@@ -4,18 +4,31 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.google.common.io.ByteArrayDataOutput;
 import com.google.common.io.ByteStreams;
 import org.bukkit.Material;
+import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
+import org.bukkit.event.entity.EntityDropItemEvent;
 import org.bukkit.event.inventory.InventoryClickEvent;
+import org.bukkit.event.player.PlayerDropItemEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
+import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.BookMeta;
+import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.Objects;
 
 public class Events implements Listener {
+	//鯖参加
+	@EventHandler
+	public void onPlayerJoin(PlayerJoinEvent E) {
+		Player PLAYER = E.getPlayer();
+
+		RumiInventoryMenu.getInstance().SetMenuItem("test", PLAYER);
+	}
+
 	@EventHandler
 	public void onPlayerInteract(PlayerInteractEvent E) {
 		if (E.getAction() == Action.LEFT_CLICK_AIR || E.getAction() == Action.LEFT_CLICK_BLOCK) {
@@ -94,6 +107,25 @@ public class Events implements Listener {
 						}
 					}
 				}
+			}
+		}
+	}
+
+	//アイテムドロップ
+	@EventHandler
+	public void onItemDrop (PlayerDropItemEvent E) {
+		Item DROP_ITEM = E.getItemDrop();
+		Player PLAYER = E.getPlayer();
+		JsonNode MENU_DATA = new MenuData().LoadMenu("test");
+
+		if(Objects.nonNull(MENU_DATA)){
+			JsonNode MENU_ITEM = MENU_DATA.get("ITEM");
+			if(
+					MENU_ITEM.get("MATERIAL").textValue().equals(DROP_ITEM.getItemStack().getType().toString())&&
+					MENU_ITEM.get("NAME").textValue().equals(DROP_ITEM.getItemStack().getItemMeta().getDisplayName().toString())
+			){
+				DROP_ITEM.remove();
+				RumiInventoryMenu.getInstance().SetMenuItem("test", PLAYER);
 			}
 		}
 	}
