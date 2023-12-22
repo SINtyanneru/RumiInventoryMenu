@@ -17,6 +17,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 import java.awt.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Objects;
 
 public class OpenMenu {
@@ -38,6 +39,7 @@ public class OpenMenu {
 							ItemStack ITEM_STACK = new ItemStack(ITEM_MATERIAL, 1);
 							ItemMeta ITEM_META = ITEM_STACK.getItemMeta();
 							ITEM_META.setDisplayName(INVENTORY_DATA.get("NAME").textValue());
+							ITEM_META.setLore(Arrays.asList(new String[]{INVENTORY_DATA.get("DESC").textValue()}));
 							ITEM_STACK.setItemMeta(ITEM_META);
 
 							INVENTORY.setItem(I, ITEM_STACK);
