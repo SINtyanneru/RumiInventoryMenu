@@ -44,12 +44,17 @@ public class Events implements Listener {
 			JsonNode INVENTORY_DATA = MENU_DATA.get("INVENTORY").get(Integer.valueOf(E.getSlot()).toString());
 			if(Objects.nonNull(INVENTORY_DATA)){
 				//アイテムが本当にインベントリメニューのものかチェック(アイテム名とマテリアルでチェック)
-				if((INVENTORY_DATA.get("NAME").textValue().equals(E.getCurrentItem().getItemMeta().getDisplayName())) && INVENTORY_DATA.get("MATERIAL").textValue().equals(E.getCurrentItem().getType().toString())){
+				if(
+						(INVENTORY_DATA.get("NAME").textValue().equals(E.getCurrentItem().getItemMeta().getDisplayName()))&&
+						(INVENTORY_DATA.get("MATERIAL").textValue().equals(E.getCurrentItem().getType().toString()))
+				){
 					//イベントをキャンセル（これでアイテムの移動ができない）
 					E.setCancelled(true);
+					//コマンドを回す
 					for(int I_R = 0; I_R < INVENTORY_DATA.get("RUN").size(); I_R++){
 						for(int I_C = 0; I_C < INVENTORY_DATA.get("RUN").get(0).size(); I_C++){
 							String COMMAND_ARGS = INVENTORY_DATA.get("RUN").get(0).get(I_C).textValue();
+							//コマンドを処理
 							switch (COMMAND_ARGS){
 								//メッセージ
 								case "SAY":{
