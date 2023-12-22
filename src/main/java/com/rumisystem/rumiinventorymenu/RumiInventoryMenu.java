@@ -1,5 +1,8 @@
 package com.rumisystem.rumiinventorymenu;
 
+import com.google.common.io.ByteArrayDataOutput;
+import com.google.common.io.ByteStreams;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class RumiInventoryMenu extends JavaPlugin {
@@ -30,5 +33,14 @@ public final class RumiInventoryMenu extends JavaPlugin {
 
 	public static RumiInventoryMenu getInstance() {
 		return INSTANCE;
+	}
+
+	//鯖を移動する
+	public void SendServer(String NAME, Player player){
+		ByteArrayDataOutput out = ByteStreams.newDataOutput();
+		out.writeUTF("Connect");
+		out.writeUTF(NAME);
+
+		player.sendPluginMessage(this, "BungeeCord", out.toByteArray());
 	}
 }
