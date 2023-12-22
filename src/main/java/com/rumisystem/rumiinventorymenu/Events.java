@@ -43,45 +43,48 @@ public class Events implements Listener {
 		if(Objects.nonNull(MENU_DATA)){
 			JsonNode INVENTORY_DATA = MENU_DATA.get("INVENTORY").get(Integer.valueOf(E.getSlot()).toString());
 			if(Objects.nonNull(INVENTORY_DATA)){
-				//イベントをキャンセル（これでアイテムの移動ができない）
-				E.setCancelled(true);
-				for(int I_R = 0; I_R < INVENTORY_DATA.get("RUN").size(); I_R++){
-					for(int I_C = 0; I_C < INVENTORY_DATA.get("RUN").get(0).size(); I_C++){
-						String COMMAND_ARGS = INVENTORY_DATA.get("RUN").get(0).get(I_C).textValue();
-						switch (COMMAND_ARGS){
-							//メッセージ
-							case "SAY":{
-								PLAYER.sendMessage(INVENTORY_DATA.get("RUN").get(0).get(I_C + 1).textValue());
-							}
-
-							//本
-							case "BOOK":{
-								ItemStack BOOK = new ItemStack(Material.WRITTEN_BOOK);
-								BookMeta BM = (BookMeta) BOOK.getItemMeta();
-								//タイトル
-								BM.setTitle("無");
-								//著者
-								BM.setAuthor("無");
-
-								//内容
-								int BOOK_I = 0;
-								while (true){
-									if(INVENTORY_DATA.get("RUN").get(0).hasNonNull(BOOK_I + 1)){
-										BM.addPage(INVENTORY_DATA.get("RUN").get(0).get(BOOK_I + 1).textValue());
-										BOOK_I++;
-									}else {
-										break;
-									}
+				//アイテムが本当にインベントリメニューのものかチェック(アイテム名とマテリアルでチェック)
+				if((INVENTORY_DATA.get("NAME").textValue().equals(E.getCurrentItem().getItemMeta().getDisplayName())) && INVENTORY_DATA.get("MATERIAL").textValue().equals(E.getCurrentItem().getType().toString())){
+					//イベントをキャンセル（これでアイテムの移動ができない）
+					E.setCancelled(true);
+					for(int I_R = 0; I_R < INVENTORY_DATA.get("RUN").size(); I_R++){
+						for(int I_C = 0; I_C < INVENTORY_DATA.get("RUN").get(0).size(); I_C++){
+							String COMMAND_ARGS = INVENTORY_DATA.get("RUN").get(0).get(I_C).textValue();
+							switch (COMMAND_ARGS){
+								//メッセージ
+								case "SAY":{
+									PLAYER.sendMessage(INVENTORY_DATA.get("RUN").get(0).get(I_C + 1).textValue());
 								}
 
-								BOOK.setItemMeta(BM);
+								//本
+								case "BOOK":{
+									ItemStack BOOK = new ItemStack(Material.WRITTEN_BOOK);
+									BookMeta BM = (BookMeta) BOOK.getItemMeta();
+									//タイトル
+									BM.setTitle("無");
+									//著者
+									BM.setAuthor("無");
 
-								PLAYER.openBook(BOOK);
-							}
+									//内容
+									int BOOK_I = 0;
+									while (true){
+										if(INVENTORY_DATA.get("RUN").get(0).hasNonNull(BOOK_I + 1)){
+											BM.addPage(INVENTORY_DATA.get("RUN").get(0).get(BOOK_I + 1).textValue());
+											BOOK_I++;
+										}else {
+											break;
+										}
+									}
 
-							//サーバー間での移動
-							case "BMV":{
-								RumiInventoryMenu.getInstance().SendServer(INVENTORY_DATA.get("RUN").get(0).get(I_C + 1).textValue(), PLAYER);
+									BOOK.setItemMeta(BM);
+
+									PLAYER.openBook(BOOK);
+								}
+
+								//サーバー間での移動
+								case "BMV":{
+									RumiInventoryMenu.getInstance().SendServer(INVENTORY_DATA.get("RUN").get(0).get(I_C + 1).textValue(), PLAYER);
+								}
 							}
 						}
 					}
