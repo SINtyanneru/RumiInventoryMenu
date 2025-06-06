@@ -1,4 +1,12 @@
-name: RumiInventoryMenu
-version: '${version}'
-main: com.rumisystem.rumiinventorymenu.RumiInventoryMenu
-api-version: '1.19'
+name: "RumiInventoryMenu"
+version: "1.0"
+main: "su.rumishistem.rumiinventorymenu.Main"
+api-version: "1.21.5"
+
+commands:
+    menu:
+        description: "メニューを管理する"
+        usage: "/menu"
+    openmenu:
+        description: "メニューを開く"
+        usage: "/menu name"
